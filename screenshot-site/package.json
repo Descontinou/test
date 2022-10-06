@@ -1,0 +1,32 @@
+{
+  "name": "screenshot-site",
+  "version": "2.3.1",
+  "description": "Модуль NodeJS, который скриншотит сайты. Уже реально скриншотит сайты",
+  "main": "index.js",
+  "scripts": {
+    "test": "node screen.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tailsjs/screenshot-site.git"
+  },
+  "keywords": [
+    "site-shot",
+    "screenshot",
+    "site",
+    "png",
+    "screen",
+    "siteshot",
+    "shot"
+  ],
+  "author": "tailsjs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tailsjs/screenshot-site/issues"
+  },
+  "homepage": "https://github.com/tailsjs/screenshot-site#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "proxy-agent": "^5.0.0"
+  }
+}
